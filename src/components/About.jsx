@@ -10,12 +10,11 @@ import NavigationDrawer from './NavigationDrawer';
 class About extends PureComponent {
   render() {
     return (
-      		
     <div id="colorlib-page">
         <NavigationDrawer />
         <Header />
-		<AboutMeCore />
-		<Services />
+		    <AboutMeCore />
+    		<Services />
         <Testimonials />
         <Footer/>
     </div>
